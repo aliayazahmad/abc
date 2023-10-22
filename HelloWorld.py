@@ -73,3 +73,13 @@ for d in days:
 # library
 import math
 print("pi is", math.pi)
+
+#list
+nums= [12, 13, 14, 15, 16]
+print(nums)
+
+# tupel
+tup(12, 13, 14, 15, 16 )
+print(tup)
+ptint(tup) #this will show error
+
