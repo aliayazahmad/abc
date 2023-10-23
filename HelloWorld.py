@@ -120,3 +120,27 @@ time_in_hr = time_in_min/60
 avg_speed = distance_in_miles/time_in_hr
 
 print(round(avg_speed,2))
+
+#area and perimeter of a rectangle
+width = 4.5
+height = 7.9
+area = (width * height)
+print(round(area,2))
+perimeter = 2(width + height)
+print(round(perimeter,2))
+
+#find last 3 digits of user's phone number
+phone_number = input("Enter your phone number: ")
+if len(phone_number) >= 3:
+    last_three_digits = phone_number[-3:]
+    print("Last three digits of your phone number:", last_three_digits)
+else:
+    print("Invalid input: Phone number should contain at least three digits.")
+
+# what day will that be when you and your frindes are going to meet? 
+X = int(input("Enter the number of days: "))
+days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+current_day = 0  # 0 represents Sunday
+meeting_day = (current_day + X) % 7
+print("You will meet your friend on:", days[meeting_day])
+
