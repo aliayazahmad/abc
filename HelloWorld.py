@@ -79,7 +79,44 @@ nums= [12, 13, 14, 15, 16]
 print(nums)
 
 # tupel
-tup(12, 13, 14, 15, 16 )
+tup = (12, 13, 14, 15, 16 )
 print(tup)
-ptint(tup) #this will show error
+print(tup) #this will show error
 
+#asining value
+def inPutcat():
+    a = input("")
+    b = input("")
+    c = input("")
+print(a, b, c)
+
+#swap asined value
+a,b = eval(input())
+b,a = a,b
+print(a)
+print(b)
+
+#Volume
+radius,length = eval(input())
+ares_of_base  = radius * radius * 3.14
+volume  =  ares_of_base * length
+print(round(volume,2))   
+
+#opretors
+X, Y = eval(input())
+print(X + Y)
+print(X-Y)
+print(X*Y)
+print(X**Y)
+print(Y//X)
+
+#average speed in miles per hour
+distance_in_km = 14
+distance_in_miles = distance_in_km/1.6
+
+time_in_min =  45.5
+time_in_hr = time_in_min/60
+
+avg_speed = distance_in_miles/time_in_hr
+
+print(round(avg_speed,2))
