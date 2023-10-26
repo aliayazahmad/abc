@@ -84,17 +84,17 @@ print(tup)
 print(tup) #this will show error
 
 #asining value
-def inPutcat():
-    a = input("")
-    b = input("")
-    c = input("")
-print(a, b, c)
+#def inPutcat():
+    #a = input("")
+    #b = input("")
+    #c = input("")
+#print(inPutcat)
 
 #swap asined value
-a,b = eval(input())
-b,a = a,b
-print(a)
-print(b)
+#a,b = eval(input())
+#b,a = a,b
+#print(a)
+#print(b)
 
 #Volume
 radius,length = eval(input())
@@ -140,7 +140,17 @@ else:
 # what day will that be when you and your frindes are going to meet? 
 X = int(input("Enter the number of days: "))
 days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-current_day = 0  # 0 represents Sunday
+current_day = 0  
 meeting_day = (current_day + X) % 7
 print("You will meet your friend on:", days[meeting_day])
+
+# String methods
+name = "bro_ code"
+print(len(name))
+print(name.find("c"))
+print(name.capitalize())
+print(name.lower())
+print(name.isdigit())
+
+
 
