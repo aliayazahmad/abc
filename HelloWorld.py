@@ -84,17 +84,17 @@ print(tup)
 print(tup) #this will show error
 
 #asining value
-#def inPutcat():
-    #a = input("")
-    #b = input("")
-    #c = input("")
-#print(inPutcat)
+def inPutcat():
+    a = input("")
+    b = input("")
+    c = input("")
+print(inPutcat)
 
 #swap asined value
-#a,b = eval(input())
-#b,a = a,b
-#print(a)
-#print(b)
+a,b = eval(input())
+b,a = a,b
+print(a)
+print(b)
 
 #Volume
 radius,length = eval(input())
@@ -151,6 +151,26 @@ print(name.find("c"))
 print(name.capitalize())
 print(name.lower())
 print(name.isdigit())
+print(name.isalpha())
+print(name.count("o"))
+print(name.replace("o","a"))
+print(name*4)
 
+#type casting
+x = 1 
+y = 2.0
+z = "3"
 
+y = int(y) #forpermanetchange
+z = int(z) #forclaculation          #allthreeofthemaresame
+x = float(x) #forrepresentinfloat
+
+print(int(y)) #itisonlyfortemporary
+print(z*3)
+print(x)
+
+#input
+
+input("what is your name?:  ")
+print("Hello" +name)
 
